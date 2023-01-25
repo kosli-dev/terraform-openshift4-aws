@@ -123,7 +123,7 @@ aws_publish_strategy = "External"
 |----------------|------------|--------------|
 | `cluster_name` | yes  | The name of the OpenShift cluster you will install     |
 | `base_domain`  | yes | The domain that has been created in Route53 public hosted zone |
-| `openshift_pull_secret` | no | The value refers to a file name that contain downloaded pull secret from https://cloud.redhat.com/openshift/pull-secret; the default name is `openshift_pull_secret.json` |
+| `openshift_pull_secret` | no | The value refers to a file name that contain downloaded pull secret from https://console.redhat.com/openshift/install/pull-secret; the default name is `openshift_pull_secret.json` |
 | `openshift_version` | yes | The openshift version to be installed.  |
 | `aws_region`   | yes  | AWS region that the VPC will be created in.  By default, uses `us-east-2`.  Note that for an HA installation, the AWS selected region should have at least 3 availability zones. |
 | `aws_extra_tags`  | no  | AWS tag to identify a resource for example owner:myname     |
